@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Saludar
+        uses: actions/actions/url-validation-action@v1.1
+        with:
+          who-to-greet: 'Ricardo'
+  
       - name: Tener copia local del repositorio
         uses: actions/checkout@v4.2.2
 
