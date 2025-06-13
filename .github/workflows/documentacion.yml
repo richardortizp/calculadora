@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Saludar
-        uses: actions/actions/url-validation-action@v1.1
+        uses: richardortizp/url-validation-action@v1.1
         with:
           who-to-greet: 'Ricardo'
   
